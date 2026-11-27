@@ -1,0 +1,1 @@
+run_id,task_id,mode,risk,framework,framework_version,configuration,base_commit,model_policy,started_at,elapsed_minutes,call_count,input_tokens_total,cached_input_tokens,output_tokens_total,reasoning_tokens_reported,retries,review_findings,accepted,escaped_defects,telemetry_definition,evidence

@@ -1,0 +1,68 @@
+{
+  "spec_sdd_core_commands": {
+    "tokens": 15190,
+    "files": [
+      "templates/commands/specify.md",
+      "templates/commands/plan.md",
+      "templates/commands/tasks.md",
+      "templates/commands/implement.md",
+      "templates/commands/converge.md"
+    ]
+  },
+  "spec_optional_clarify_analyze": {
+    "tokens": 7343,
+    "files": [
+      "templates/commands/clarify.md",
+      "templates/commands/analyze.md"
+    ]
+  },
+  "spec_bug_commands": {
+    "tokens": 8224,
+    "files": [
+      "extensions/bug/commands/speckit.bug.assess.md",
+      "extensions/bug/commands/speckit.bug.fix.md",
+      "extensions/bug/commands/speckit.bug.test.md"
+    ]
+  },
+  "spec_assess_commands": {
+    "tokens": 9271,
+    "files": [
+      "extensions/assess/commands/speckit.assess.intake.md",
+      "extensions/assess/commands/speckit.assess.research.md",
+      "extensions/assess/commands/speckit.assess.shape.md",
+      "extensions/assess/commands/speckit.assess.define.md",
+      "extensions/assess/commands/speckit.assess.decide.md"
+    ]
+  },
+  "bmad_dispatch_parent_source": {
+    "tokens": 9877,
+    "files": [
+      "src/bmm-skills/ship/bmad-build/SKILL.md",
+      "src/bmm-skills/ship/bmad-build/workflow.md",
+      "src/bmm-skills/ship/bmad-build/step-01-clarify-and-route.md",
+      "src/bmm-skills/ship/bmad-build/step-02-plan.md",
+      "src/bmm-skills/ship/bmad-build/spec-template.md",
+      "src/bmm-skills/ship/bmad-build/step-03-implement.md",
+      "src/bmm-skills/ship/bmad-build/step-04-review.md",
+      "src/bmm-skills/ship/bmad-build/step-05-present.md"
+    ]
+  },
+  "bmad_oneshot_parent_source": {
+    "tokens": 7774,
+    "files": [
+      "src/bmm-skills/ship/bmad-build/SKILL.md",
+      "src/bmm-skills/ship/bmad-build/workflow.md",
+      "src/bmm-skills/ship/bmad-build/step-01-clarify-and-route.md",
+      "src/bmm-skills/ship/bmad-build/step-02-plan.md",
+      "src/bmm-skills/ship/bmad-build/spec-template.md",
+      "src/bmm-skills/ship/bmad-build/step-oneshot.md"
+    ]
+  },
+  "bmad_two_reviewer_instruction_files": {
+    "tokens": 3875,
+    "files": [
+      "src/bmm-skills/ship/bmad-build/review-prompts/edge-case-hunter.md",
+      "src/bmm-skills/ship/bmad-build/review-prompts/verification-gap.md"
+    ]
+  }
+}

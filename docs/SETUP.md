@@ -22,19 +22,13 @@ Prompt:
 
 > Ejecutá E01 sobre el repo que te indiqué. Revisá las instrucciones existentes y los materiales aportados. Consolidá contexto y constraints con evidencia. Separá método reusable de decisiones del producto. Registrá contradicciones y actualizá el avance del repositorio product-cell.
 
-## Paso 2 Instalar los roles y el procedimiento
+## Paso 2 Instalar Spec Kit y los arneses mínimos
 
-Primero revisar las instrucciones vigentes del piloto. Integrar las reglas de continuidad sin sobrescribirlas. Crear agentes personalizados desde las plantillas de templates/agents, ajustando modelos disponibles y contratos al proyecto. Copiarlos a `.codex/agents/` del piloto solo en esta etapa.
+Seguir [INSTALL_SPEC_KIT.md](INSTALL_SPEC_KIT.md) en el tracker piloto. Fijar v1.4.5, preparar una rama revisable, inicializar core con la integración Codex y eventos desactivados para la primera prueba. Instalar bug y assess únicamente cuando se necesiten.
 
-Usar skill-creator para crear `.agents/skills/product-cell/SKILL.md` y cuatro referencias de modo. El cuerpo principal solo clasifica, consulta estado, carga la referencia pertinente y coordina. Las referencias contienen los recorridos de WORKFLOWS. Mantener el contexto específico del producto fuera de la skill reusable.
+Integrar reglas existentes con la constitución y las [fuentes canónicas](SPEC_KIT.md). AGENTS.md mantiene enrutamiento y referencias; no copiar specs o tareas en un segundo sistema. Instalar solo roles necesarios y comprobar modelos disponibles. Crear una skill product-cell con referencias por modo solo si aporta reutilización; no reemplaza el workflow de Spec Kit.
 
-El coordinador debe leer el estado antes de asignar trabajo. Cada pedido delegado incluye ID de tarea, modo, etapa de producto, estado, aceptación, archivos relevantes, límite de edición y formato de salida. Las restricciones relevantes se leen directamente, nunca se dejan libradas a recuperación semántica.
-
-Configurar el modelo principal en el cliente o configuración admitida. Verificar disponibilidad antes de fijar IDs de modelos. Las plantillas no alteran permisos del entorno; producción requiere herramientas y credenciales apropiadas al alcance autorizado.
-
-Prueba en seco: abrir una sesión nueva, pedir que identifique instrucciones, skill, agentes, etapa actual y próximo paso. Hacer una delegación inocua y acotada para comprobar carga y salida. Registrar lo observado; no inferir el modelo realmente ejecutado solo por el contenido del archivo.
-
-Salida E02: configuración detectada y handoff de ejemplo comprobado. No es todavía evidencia de éxito en tareas reales.
+Probar detección y handoff en una sesión nueva. Registrar resultados con [INSTALLATION_RECORD.md](../templates/INSTALLATION_RECORD.md). Salida E02: instalación y configuración comprobadas, sin confundirlas con éxito de tareas reales.
 
 ## Paso 3 Probar tweak y bugfix con presupuesto acotado
 
@@ -42,15 +36,15 @@ Crear una tarea con templates/TASK.md para un tweak real. Definir aceptación br
 
 Luego elegir un bug real. Registrar comportamiento esperado, reproducción, diagnóstico, corrección y verificación de regresión. Completar templates/LEARNING.md con prevención accionable. Si no se consigue reproducir, indicar la evidencia disponible y lo no confirmado; no inventar una causa.
 
-Registrar métricas usando templates/METRICS.csv: rondas, reintentos, defecto encontrado en revisión, tiempo y consumo cuando sea observable. Un dato no disponible queda vacío, no en cero. Comparar el costo total hasta aceptación, no solo la primera respuesta del modelo económico.
+Registrar métricas usando templates/RUN_METRICS.csv y templates/CALL_METRICS.csv: rondas, reintentos, defecto encontrado en revisión, tiempo y consumo cuando sea observable. Un dato no disponible queda vacío, no en cero. Comparar el costo total hasta aceptación, no solo la primera respuesta del modelo económico.
 
 Salida E03: dos tareas verificadas y un learning útil; ajustar arneses según los fallos observados.
 
 ## Paso 4 Probar una etapa de roadmap
 
-El PM define un resultado, métrica, alcance y exclusiones de etapa. El Tech Lead evalúa viabilidad y dependencias. Descomponer en historias verticales verificables, evitando refinar todo el backlog.
+Usar el recorrido SDD de docs/SPEC_KIT.md para una feature acotada. El PM define un resultado, métrica, alcance y exclusiones de etapa. El Tech Lead evalúa viabilidad y dependencias. Descomponer en historias verticales verificables, evitando refinar todo el backlog.
 
-Seleccionar una historia: PM define flujo, estados y aceptación; Tech Lead produce contratos, impacto y plan de pruebas; PM revisa efectos sobre la experiencia. Máximo inicial de dos rondas antes de elevar desacuerdos con alternativas. Una decisión bloqueante impide el pase a Dev.
+Seleccionar una historia: PM define flujo, estados y aceptación en la spec canónica; Tech Lead produce el plan y verificaciones; PM revisa cambios de experiencia cuando existan. Máximo inicial de dos rondas antes de elevar desacuerdos con alternativas. Una decisión bloqueante impide el pase a Dev.
 
 El Dev implementa la spec versionada. Reviewer revisa diff, evidencia y aceptación. El PM interviene en aceptación cuando existe decisión de experiencia; no repetir revisión funcional completa para cambios sin impacto. DevOps participa antes si hay migraciones o infraestructura.
 

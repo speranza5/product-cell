@@ -22,6 +22,17 @@
     "README.md",
     "docs/SETUP.md",
     "docs/LOG.md",
-    "scripts/check_state.py"
-  ]
+    "scripts/check_state.py",
+    "docs/SPEC_KIT.md",
+    "docs/INSTALL_SPEC_KIT.md",
+    "docs/TOKEN_POLICY.md",
+    "resources/token-analysis/source-counts.csv"
+  ],
+  "framework": {
+    "name": "spec-kit",
+    "reference_version": "v1.4.5",
+    "status": "selected_not_installed",
+    "installation_guide": "docs/INSTALL_SPEC_KIT.md"
+  },
+  "last_completed_action": "Adaptación de la célula a Spec Kit y guía de instalación con política de tokens."
 }

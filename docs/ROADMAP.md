@@ -6,7 +6,7 @@ Este roadmap construye el sistema de trabajo. Cada tracker conservará su propio
 |---|---|---|
 | E00 | Base documental y continuidad | Repo independiente, guías y estado comprobados |
 | E01 | Contexto del piloto consolidado | Producto elegido, reglas con fuentes y contradicciones resueltas o registradas |
-| E02 | Flujo y arneses configurados | Agentes y skill detectados; entradas y salidas verificadas en prueba en seco |
+| E02 | Spec Kit y arneses mínimos configurados | Versión fijada, core con Codex detectado, fuentes canónicas y handoff comprobados; roles necesarios disponibles |
 | E03 | Primer circuito económico funcionando | Un tweak y un bugfix reales aceptados, con learning y métricas |
 | E04 | Refinamiento y etapa de roadmap | Una historia pasa PM → Tech Lead → Dev → Reviewer y entrega, con evidencia |
 | E05 | Entrega y operación reproducibles | Runbook, rollback y checks pertinentes probados en entorno adecuado |
@@ -18,13 +18,17 @@ Este roadmap construye el sistema de trabajo. Cada tracker conservará su propio
 
 - [x] E00 — Base documental.
 - [ ] E01 — Contexto del piloto.
-- [ ] E02 — Configuración de roles y arneses.
+- [ ] E02 — Instalación de Spec Kit y arneses mínimos.
 - [ ] E03 — Piloto de tweak y bugfix.
 - [ ] E04 — Piloto de etapa de roadmap.
 - [ ] E05 — Entrega y operación.
 - [ ] E06 — Biblioteca y búsqueda textual.
 - [ ] E07 — Evaluación de RAG.
 - [ ] E08 — Portabilidad y calibración.
+
+## Decisión de base
+
+Spec Kit seleccionado el 2026-11-27. Guía de instalación y política de consumo listas; E02 no se marca completa hasta probarlas en el piloto. BMAD queda como referencia, no como segundo orquestador.
 
 ## Política de cambios
 

@@ -6,4 +6,4 @@ Modelos propuestos: PM y Tech Lead con gpt-6.2-sol/medium, Reviewer con gpt-6.2-
 
 Las plantillas fijan modelo y esfuerzo. Para escalar una tarea, seleccionar otro agente/configuración efectiva o actualizar el archivo con intención; una preferencia verbal no debe presentarse como cambio comprobado si el archivo sigue fijando otro modelo. Registrar modelo observado cuando el cliente lo permita.
 
-Los permisos y herramientas reales proceden de la sesión y su entorno. No suponer que estos TOML crean aislamiento. Cada asignación debe incluir el contrato de docs/HARNESSES.md. La skill product-cell se crea y valida en E02, no está instalada aquí.
+Los permisos y herramientas reales proceden de la sesión y su entorno. No suponer que estos TOML crean aislamiento. Cada asignación debe incluir el contrato de docs/HARNESSES.md. En E02 se instala primero Spec Kit y el enrutamiento mínimo; una skill product-cell se crea solo si aporta reutilización. No está instalada aquí. Cada especialista actúa sobre los artefactos canónicos de Spec Kit y no repite etapas ya completadas.

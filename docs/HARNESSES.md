@@ -1,5 +1,7 @@
 # Arneses y subagentes
 
+Base de ejecución elegida: [Spec Kit](SPEC_KIT.md). Aplicar la [política de tokens](TOKEN_POLICY.md); las instrucciones por rol complementan sus procesos sin volver a ejecutarlos dentro de cada agente.
+
 ## Contrato común
 
 Cada asignación incluye tarea, modo, etapa, estado, objetivo, versión de spec, aceptación, fuentes obligatorias, archivos permitidos, herramientas disponibles, límites, verificación y salida. La disponibilidad real de herramientas y modelos se verifica en el entorno.
@@ -16,6 +18,8 @@ El arnés combina instrucciones, selección de contexto, herramientas, permisos,
 | Dev | Tarea ready | Detalles internos acordes al diseño | Diff y resultados | Decisiones faltantes o fallos repetidos |
 | Reviewer | Spec, diff y evidencia | Hallazgos y conformidad | Reproducción y severidad | Evidencia insuficiente o riesgo sin resolver |
 | DevOps | Cambio validado y runbook | Ejecución autorizada | Entrega y recuperación | Permisos, incidente o procedimiento ambiguo |
+
+Una revisión independiente cuando corresponda; revisores adicionales requieren riesgos diferentes. No exigir un mínimo de hallazgos. PM y Tech Lead intervienen cuando quedan decisiones pendientes.
 
 Reviewer no debe convertirse en segundo implementador durante la revisión. Si hay hallazgos, devolver al responsable y verificar las correcciones. El coordinador es el único escritor del estado global; agentes editan archivos asignados o devuelven un resumen para integrarlo.
 

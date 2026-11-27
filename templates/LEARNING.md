@@ -1,5 +1,7 @@
 # Learning del caso
 
+Completar solo lo nuevo. Para casos con reportes de Spec Kit, enlazar diagnóstico y verificación en lugar de repetirlos.
+
 - Tarea y versión afectada:
 - Síntoma y disparador:
 - Causa confirmada o hipótesis pendiente:

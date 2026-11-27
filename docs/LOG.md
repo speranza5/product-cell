@@ -24,3 +24,13 @@ Agregar entradas cronológicas con fecha local, alcance, evidencia y próxima ac
 - Visibilidad privada; origin configurado y rama main subida.
 - Actualizados README, estado y registro de decisiones con el destino real.
 - El roadmap no cambia: E00 completa; próxima etapa E01.
+
+## 2026-11-27 Adaptación a Spec Kit
+
+- Decisión del usuario: usar Spec Kit con configuración selectiva y política de consumo hasta aceptación.
+- Incorporados docs/SPEC_KIT.md, INSTALL_SPEC_KIT.md y TOKEN_POLICY.md; evidencia estática reproducible en resources/token-analysis.
+- Actualizados README, continuidad, roadmap, roles y fuentes canónicas para evitar duplicación. D06 sustituida por D12 y D13.
+- Agregados fragmento AGENTS para piloto, registro de instalación y métricas por ejecución/llamada.
+- Último paso: adaptación documental y de plantillas. E01 sigue pendiente; Spec Kit no está instalado en trackers.
+- Próximo paso: elegir piloto, completar E01 y seguir guía E02.
+- Verificación de adaptación: enlaces y estado aprobados por scripts/check_state.py; conteos reproducidos contra los dos tags; sintaxis de instalación contrastada con documentación y código de v1.4.5. Instalación real pendiente del piloto.

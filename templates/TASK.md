@@ -1,5 +1,7 @@
 # TASK ID y título
 
+Plantilla para tweaks o trabajo ligero fuera de un proceso Spec Kit. Si la tarea usa SDD o la extensión bug, mantener aquí solo referencias de enrutamiento, sin copiar specs, tareas o reportes canónicos.
+
 ```yaml
 id: TASK-000
 mode: tweak

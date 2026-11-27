@@ -1,5 +1,7 @@
 # Recorridos según el trabajo
 
+Implementación de estos recorridos: [Spec Kit y fuentes canónicas](SPEC_KIT.md). Usar ese mapa para decidir qué skill invocar; no todas las solicitudes necesitan un proceso completo.
+
 ## Clasificación
 
 El coordinador distingue modo, etapa de producto y estado de tarea. Clasifica con la información disponible y pregunta solo cuando la ambigüedad cambia intención o alcance. Registrar reclasificaciones y su motivo. El riesgo se evalúa por impacto en datos, permisos, contratos, experiencia y operación; no por cantidad de líneas cambiadas.

@@ -1,0 +1,1 @@
+run_id,call_id,parent_call_id,agent_role,model_observed,reasoning_effort,input_tokens_total,cached_input_tokens,output_tokens_total,reasoning_tokens_reported,latency_seconds,source_usage_reference

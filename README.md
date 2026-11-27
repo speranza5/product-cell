@@ -2,7 +2,9 @@
 
 Un sistema de trabajo para convertir ideas en productos y evolucionarlos con agentes especializados, contexto persistente y verificaciones proporcionales al cambio. Este repositorio documenta y construye ese sistema por etapas, empezando por un piloto en Gym Tracker o CEDEAR Tracker.
 
-**Estado actual:** E00 completada: repositorio y documentación inicial. **Próximo paso:** E01, elegir el repo piloto y consolidar sus reglas existentes. Los agentes personalizados, las skills, el pipeline y el RAG todavía no están instalados ni probados.
+**Base elegida:** Spec Kit v1.4.5 para el piloto, con recorridos selectivos y medición de consumo hasta aceptación. [Integración](docs/SPEC_KIT.md) · [Instalación](docs/INSTALL_SPEC_KIT.md) · [Política de tokens](docs/TOKEN_POLICY.md).
+
+**Estado actual:** E00 completada: repositorio y documentación inicial. **Próximo paso:** E01, elegir el repo piloto y consolidar sus reglas existentes. Spec Kit, los agentes personalizados, las skills propias, el pipeline y el RAG todavía no están instalados ni probados en un tracker. La selección de base y su guía ya están documentadas.
 
 ## Empezar y retomar
 
@@ -68,7 +70,8 @@ La urgencia no convierte un cambio en tweak. El modo elige el recorrido; el ries
 7. **Definición funcional protegida.** Dev no cambia aceptación para hacer pasar la implementación. Cambios de experiencia vuelven al PM.
 8. **RAG gradual.** Primero documentos curados y búsqueda textual. Después recuperación híbrida si mejora búsquedas reales. Estado, spec y reglas obligatorias se leen directamente.
 9. **Aprendizaje accionable.** Cada bug deja prevención proporcional: prueba, alerta, documentación o runbook. Solo las reglas generales y duraderas pasan a AGENTS.md.
-10. **Construcción por etapas.** Validar el sistema en un tracker antes de generalizarlo al segundo. Diferenciar siempre creado, configurado, probado y operando.
+10. **Spec Kit como base.** Core para features; extensiones bug y assess bajo demanda. product-cell coordina roles y modos sin duplicar los artefactos del framework. El ahorro se comprueba, no se presume.
+11. **Construcción por etapas.** Validar el sistema en un tracker antes de generalizarlo al segundo. Diferenciar siempre creado, configurado, probado y operando.
 
 Detalle y consecuencias: [registro de decisiones](docs/DECISIONS.md).
 
@@ -89,11 +92,15 @@ AGENTS.md                 Instrucciones para trabajar en este repo
 README.md                 Visión y decisiones principales
 state/project.json        Estado estructurado de construcción
 scripts/check_state.py    Validación básica de estado y referencias
+resources/token-analysis Evidencia reproducible de conteos estáticos
 docs/                     Guías, decisiones, avance y evidencias
 templates/                Plantillas de tareas, contexto y agentes
 ```
 
 - [Guía de instalación por etapas](docs/SETUP.md)
+- [Instalar Spec Kit con Codex](docs/INSTALL_SPEC_KIT.md)
+- [Responsabilidades y fuentes canónicas](docs/SPEC_KIT.md)
+- [Política de consumo](docs/TOKEN_POLICY.md)
 - [Roadmap y criterios de salida](docs/ROADMAP.md)
 - [Estado y último paso](docs/STATUS.md)
 - [Bitácora cronológica](docs/LOG.md)

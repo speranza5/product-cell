@@ -11,6 +11,8 @@ Este repositorio construye una célula de producto por etapas. No confundir su r
 
 ## Ejecución
 
+- Spec Kit es la base elegida del piloto; leer docs/SPEC_KIT.md y docs/TOKEN_POLICY.md cuando se trabaje en integración o ejecución. No instalar el framework en este repo por defecto: el destino es el tracker elegido.
+- No duplicar artefactos canónicos ni activar PM, Tech Lead o revisores por ceremonia. Una revisión cuando corresponda; más solo por riesgos concretos. No exigir cuotas de hallazgos.
 - El agente principal coordina. No ejecutar todas las etapas por recibir un pedido de continuación.
 - Completar el alcance pedido; si falta información, avanzar en lo independiente y registrar el bloqueo concreto.
 - Usar subagentes cuando una etapa o tarea autorizada requiera especialización o trabajo independiente. No delegar cambios triviales por ceremonia.
