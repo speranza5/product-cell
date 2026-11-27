@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-27",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "last_completed_stage": "E00",
+  "current_stage": "E01",
+  "current_stage_status": "not_started",
+  "mode": "foundation",
+  "product_stage": null,
+  "active_task": null,
+  "next_role": "coordinator",
+  "next_action": "Elegir repo piloto e incorporar sus instrucciones y decisiones con fuentes.",
+  "required_inputs": [
+    "Tracker piloto y ruta accesible",
+    "Materiales relevantes de Claude o ChatGPT",
+    "Confirmar variante de las cinco customer questions"
+  ],
+  "completed_stages": [
+    "E00"
+  ],
+  "evidence": [
+    "README.md",
+    "docs/SETUP.md",
+    "docs/LOG.md",
+    "scripts/check_state.py"
+  ]
+}
