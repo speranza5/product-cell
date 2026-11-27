@@ -114,4 +114,4 @@ git status --short
 git log -5 --oneline
 ```
 
-La validación comprueba estructura, referencias y coherencia básica del avance; no certifica que los agentes funcionen. Usar ramas `codex/<tema>` para cambios posteriores y commits pequeños con evidencia. Este repo es local; no se ha publicado en un remoto.
+La validación comprueba estructura, referencias y coherencia básica del avance; no certifica que los agentes funcionen. Usar ramas `codex/<tema>` para cambios posteriores y commits pequeños con evidencia. Repositorio privado publicado en [GitHub](https://github.com/speranza5/product-cell), con `origin` configurado y `main` sincronizada al publicar.

@@ -23,4 +23,4 @@ Fecha inicial: 2026-11-27. Decisiones de diseño acordadas en esta conversación
 - Validar modelos y esfuerzo disponibles en el cliente.
 - Establecer entornos, pipeline y permisos del piloto.
 - Elegir procesamiento local o externo para embeddings si E07 se justifica.
-- Definir remoto Git solo cuando exista un destino solicitado.
+- Remoto resuelto: GitHub privado en speranza5/product-cell, por pedido de publicación del usuario.

@@ -35,7 +35,7 @@ Estas elecciones no bloquean la base documental entregada; son entradas del pró
 | Pruebas de flujo con agentes | Pendientes |
 | CI y despliegue | Pendientes de adaptar al piloto |
 | Búsqueda documental y RAG | Planificados, no implementados |
-| Remoto Git | No configurado |
+| Remoto Git | GitHub privado: https://github.com/speranza5/product-cell |
 
 ## Evidencia y continuación
 

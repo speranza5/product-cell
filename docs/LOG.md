@@ -17,3 +17,10 @@ Agregar entradas cronológicas con fecha local, alcance, evidencia y próxima ac
 - Verificación negativa del validador: aprobada; una copia temporal con estado incoherente fue rechazada correctamente.
 - `git diff --cached --check`: comprobación de whitespace sobre los archivos preparados para el commit inicial.
 - E00 completa; E01 todavía no iniciada. Próxima acción: identificar repo piloto y materiales fuente.
+
+## 2026-11-27 Publicación en GitHub
+
+- Publicado por pedido del usuario en https://github.com/speranza5/product-cell.
+- Visibilidad privada; origin configurado y rama main subida.
+- Actualizados README, estado y registro de decisiones con el destino real.
+- El roadmap no cambia: E00 completa; próxima etapa E01.
