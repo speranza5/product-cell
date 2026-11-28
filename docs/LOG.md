@@ -34,3 +34,10 @@ Agregar entradas cronológicas con fecha local, alcance, evidencia y próxima ac
 - Último paso: adaptación documental y de plantillas. E01 sigue pendiente; Spec Kit no está instalado en trackers.
 - Próximo paso: elegir piloto, completar E01 y seguir guía E02.
 - Verificación de adaptación: enlaces y estado aprobados por scripts/check_state.py; conteos reproducidos contra los dos tags; sintaxis de instalación contrastada con documentación y código de v1.4.5. Instalación real pendiente del piloto.
+
+## 2026-11-28 Continuación de la publicación
+
+- Retomado el commit local de adaptación a Spec Kit. El push anterior no se ejecutó por un fallo de revisión automática asociado al límite de uso.
+- Normalizados los finales de línea del CSV y del generador, sin cambiar los conteos.
+- Estado y enlaces verificados; E01 sigue pendiente de elección del piloto.
+- Se reintenta publicar la adaptación y esta corrección; la confirmación de sincronización se comprueba en Git.

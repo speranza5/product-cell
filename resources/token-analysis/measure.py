@@ -18,7 +18,7 @@ for framework,root,p in paths:
     content=p.read_text()
     rows.append(dict(framework=framework,path=str(p.relative_to(root)),characters=len(content),tokens_o200k_base=len(enc.encode(content))))
 with (out/'source-counts.csv').open('w') as f:
-    w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
+    w=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator="\n");w.writeheader();w.writerows(rows)
 lookup={(r['framework'],r['path']):r['tokens_o200k_base'] for r in rows}
 bprefix='src/bmm-skills/ship/bmad-build/'
 groups={

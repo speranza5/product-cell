@@ -1,6 +1,6 @@
 # Estado actual
 
-Actualizado: 2026-11-27, America/Argentina/Buenos_Aires.
+Actualizado: 2026-11-28, America/Argentina/Buenos_Aires.
 
 ## Último paso completado
 
